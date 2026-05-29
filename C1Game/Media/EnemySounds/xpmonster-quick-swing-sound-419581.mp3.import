@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/xpmonster-quick-swing-sound-419581.mp3-5e2d1a7afbf75da13fdc6ce5a22b1eae.mp3str"
+
+[deps]
+
+source_file="res://Media/EnemySounds/xpmonster-quick-swing-sound-419581.mp3"
+dest_files=[ "res://.import/xpmonster-quick-swing-sound-419581.mp3-5e2d1a7afbf75da13fdc6ce5a22b1eae.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/jump.mp3-caa4402d2a023003c70f7edb6d305cd5.mp3str"
+
+[deps]
+
+source_file="res://Media/DagAudio/jump.mp3"
+dest_files=[ "res://.import/jump.mp3-caa4402d2a023003c70f7edb6d305cd5.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

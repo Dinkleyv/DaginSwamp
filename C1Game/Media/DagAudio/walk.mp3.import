@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/walk.mp3-6bba0cc1ca122e4add91f2465f24bf6a.mp3str"
+
+[deps]
+
+source_file="res://Media/DagAudio/walk.mp3"
+dest_files=[ "res://.import/walk.mp3-6bba0cc1ca122e4add91f2465f24bf6a.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

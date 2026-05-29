@@ -1,0 +1,90 @@
+[gd_scene load_steps=12 format=2]
+
+[ext_resource path="res://MainHUD.gd" type="Script" id=1]
+[ext_resource path="res://Heart.tscn" type="PackedScene" id=2]
+[ext_resource path="res://Fonts/Midnight Delihtful.otf" type="DynamicFontData" id=3]
+[ext_resource path="res://Sprites/Pies/ButterChickenIdle2.png" type="Texture" id=4]
+[ext_resource path="res://Sprites/keys/k1.png" type="Texture" id=5]
+[ext_resource path="res://Media/DagAudio/lives/universfield-low-power-warning-487889.mp3" type="AudioStream" id=6]
+[ext_resource path="res://Media/items/keys.mp3" type="AudioStream" id=7]
+[ext_resource path="res://Media/items/Piefound.mp3" type="AudioStream" id=8]
+[ext_resource path="res://Sprites/home.png" type="Texture" id=9]
+
+[sub_resource type="DynamicFont" id=3]
+size = 31
+outline_size = 3
+outline_color = Color( 0.439216, 0.203922, 0.454902, 1 )
+font_data = ExtResource( 3 )
+
+[sub_resource type="DynamicFont" id=4]
+size = 31
+outline_size = 4
+outline_color = Color( 0.439216, 0.203922, 0.454902, 1 )
+font_data = ExtResource( 3 )
+
+[node name="MainHUD" type="Node2D"]
+script = ExtResource( 1 )
+
+[node name="HUD" type="CanvasLayer" parent="."]
+
+[node name="Panel" type="Panel" parent="HUD"]
+modulate = Color( 1, 1, 1, 0 )
+margin_right = 640.0
+margin_bottom = 67.0
+
+[node name="Heart1" parent="HUD" instance=ExtResource( 2 )]
+margin_right = 64.0
+margin_bottom = 63.0
+
+[node name="Heart2" parent="HUD" instance=ExtResource( 2 )]
+margin_left = 64.0
+margin_right = 126.0
+margin_bottom = 62.0
+
+[node name="Heart3" parent="HUD" instance=ExtResource( 2 )]
+margin_left = 128.0
+margin_right = 190.0
+margin_bottom = 57.0
+
+[node name="Keys" type="Label" parent="HUD"]
+margin_left = 359.0
+margin_top = 16.0
+margin_right = 493.0
+margin_bottom = 52.0
+custom_fonts/font = SubResource( 3 )
+text = ": ##"
+
+[node name="Pies" type="Label" parent="HUD"]
+margin_left = 571.0
+margin_top = 16.0
+margin_right = 705.0
+margin_bottom = 45.0
+custom_fonts/font = SubResource( 4 )
+text = ":##"
+
+[node name="Sprite" type="Sprite" parent="HUD/Pies"]
+position = Vector2( -54, 11 )
+scale = Vector2( 1.4375, 1.37109 )
+texture = ExtResource( 4 )
+
+[node name="Keyindicator" type="Sprite" parent="HUD"]
+position = Vector2( 303, 29 )
+scale = Vector2( 0.865079, 0.618421 )
+texture = ExtResource( 5 )
+
+[node name="FoundKey" type="AudioStreamPlayer" parent="HUD"]
+stream = ExtResource( 7 )
+
+[node name="FoundPie" type="AudioStreamPlayer" parent="HUD"]
+stream = ExtResource( 8 )
+
+[node name="Low_life" type="AudioStreamPlayer" parent="HUD"]
+stream = ExtResource( 6 )
+
+[node name="Button" type="Button" parent="HUD"]
+margin_left = 980.0
+margin_right = 1092.0
+margin_bottom = 106.0
+icon = ExtResource( 9 )
+
+[connection signal="pressed" from="HUD/Button" to="." method="_on_Button_pressed"]

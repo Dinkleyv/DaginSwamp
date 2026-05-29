@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/stu9-frog-3-352715.mp3-d8a76a242d9f0b62f68b3deb745f883c.mp3str"
+
+[deps]
+
+source_file="res://Media/EnemySounds/outofbox/stu9-frog-3-352715.mp3"
+dest_files=[ "res://.import/stu9-frog-3-352715.mp3-d8a76a242d9f0b62f68b3deb745f883c.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

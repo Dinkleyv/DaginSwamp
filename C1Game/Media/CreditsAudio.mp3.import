@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/CreditsAudio.mp3-c715a9e5df7722912a06ec7a516a02db.mp3str"
+
+[deps]
+
+source_file="res://Media/CreditsAudio.mp3"
+dest_files=[ "res://.import/CreditsAudio.mp3-c715a9e5df7722912a06ec7a516a02db.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

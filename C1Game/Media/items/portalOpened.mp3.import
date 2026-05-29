@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/portalOpened.mp3-15cdbb90aa8c4d8e54659dfa01d2b322.mp3str"
+
+[deps]
+
+source_file="res://Media/items/portalOpened.mp3"
+dest_files=[ "res://.import/portalOpened.mp3-15cdbb90aa8c4d8e54659dfa01d2b322.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/spiderattack.mp3-0b28f1e65deebb98928b98e763f0f1be.mp3str"
+
+[deps]
+
+source_file="res://Media/EnemySounds/spiderattack.mp3"
+dest_files=[ "res://.import/spiderattack.mp3-0b28f1e65deebb98928b98e763f0f1be.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

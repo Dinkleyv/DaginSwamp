@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/slash (2).mp3-92a1fe916099d02fe32e89914906cb84.mp3str"
+
+[deps]
+
+source_file="res://Media/EnemySounds/slash (2).mp3"
+dest_files=[ "res://.import/slash (2).mp3-92a1fe916099d02fe32e89914906cb84.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

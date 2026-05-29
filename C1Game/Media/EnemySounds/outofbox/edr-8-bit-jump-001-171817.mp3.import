@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/edr-8-bit-jump-001-171817.mp3-576d366dad6d2cac4b5439b6ca6297e1.mp3str"
+
+[deps]
+
+source_file="res://Media/EnemySounds/outofbox/edr-8-bit-jump-001-171817.mp3"
+dest_files=[ "res://.import/edr-8-bit-jump-001-171817.mp3-576d366dad6d2cac4b5439b6ca6297e1.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

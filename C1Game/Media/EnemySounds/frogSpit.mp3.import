@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/frogSpit.mp3-69c4c57c7f2238ca5e68d8cc1d470290.mp3str"
+
+[deps]
+
+source_file="res://Media/EnemySounds/frogSpit.mp3"
+dest_files=[ "res://.import/frogSpit.mp3-69c4c57c7f2238ca5e68d8cc1d470290.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

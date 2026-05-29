@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/climb_ladder.mp3-bf531459412617a5fe5872c7becd8ce5.mp3str"
+
+[deps]
+
+source_file="res://Media/DagAudio/climb_ladder.mp3"
+dest_files=[ "res://.import/climb_ladder.mp3-bf531459412617a5fe5872c7becd8ce5.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

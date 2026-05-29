@@ -1,0 +1,65 @@
+[gd_scene load_steps=29 format=2]
+
+[ext_resource path="res://Sprites/Boxes/bwSpiders/b0.png" type="Texture" id=1]
+[ext_resource path="res://Sprites/Boxes/bwSpiders/b1.png" type="Texture" id=2]
+[ext_resource path="res://Sprites/Boxes/bwSpiders/b2.png" type="Texture" id=3]
+[ext_resource path="res://Sprites/Boxes/bwSpiders/b3.png" type="Texture" id=4]
+[ext_resource path="res://Sprites/Boxes/bwSpiders/b4.png" type="Texture" id=5]
+[ext_resource path="res://Sprites/Boxes/bwSpiders/b5.png" type="Texture" id=6]
+[ext_resource path="res://Sprites/Boxes/bwSpiders/b6.png" type="Texture" id=7]
+[ext_resource path="res://Sprites/Boxes/bwSpiders/b7.png" type="Texture" id=8]
+[ext_resource path="res://Sprites/Boxes/bwSpiders/b11.png" type="Texture" id=9]
+[ext_resource path="res://Sprites/Boxes/bwSpiders/b12.png" type="Texture" id=10]
+[ext_resource path="res://Sprites/Boxes/bwSpiders/b13.png" type="Texture" id=11]
+[ext_resource path="res://Sprites/Boxes/bwSpiders/b10.png" type="Texture" id=12]
+[ext_resource path="res://Sprites/Boxes/bwSpiders/b9.png" type="Texture" id=13]
+[ext_resource path="res://Sprites/Boxes/bwSpiders/b8.png" type="Texture" id=14]
+[ext_resource path="res://Sprites/Boxes/bwSpiders/b17.png" type="Texture" id=15]
+[ext_resource path="res://Sprites/Boxes/bwSpiders/b22.png" type="Texture" id=16]
+[ext_resource path="res://Sprites/Boxes/bwSpiders/b20.png" type="Texture" id=17]
+[ext_resource path="res://Sprites/Boxes/bwSpiders/b23.png" type="Texture" id=18]
+[ext_resource path="res://Sprites/Boxes/bwSpiders/b14.png" type="Texture" id=19]
+[ext_resource path="res://Sprites/Boxes/bwSpiders/b16.png" type="Texture" id=20]
+[ext_resource path="res://Sprites/Boxes/bwSpiders/b18.png" type="Texture" id=21]
+[ext_resource path="res://Sprites/Boxes/bwSpiders/b19.png" type="Texture" id=22]
+[ext_resource path="res://Sprites/Boxes/bwSpiders/b15.png" type="Texture" id=23]
+[ext_resource path="res://Sprites/Boxes/bwSpiders/b21.png" type="Texture" id=24]
+[ext_resource path="res://BoxSpider.gd" type="Script" id=25]
+[ext_resource path="res://Media/items/openchest.mp3" type="AudioStream" id=26]
+
+[sub_resource type="SpriteFrames" id=1]
+animations = [ {
+"frames": [ ExtResource( 1 ) ],
+"loop": true,
+"name": "Closed",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 2 ), ExtResource( 3 ), ExtResource( 4 ), ExtResource( 5 ), ExtResource( 6 ), ExtResource( 7 ), ExtResource( 8 ), ExtResource( 14 ), ExtResource( 13 ), ExtResource( 12 ), ExtResource( 9 ), ExtResource( 10 ), ExtResource( 11 ), ExtResource( 19 ), ExtResource( 23 ), ExtResource( 20 ), ExtResource( 15 ), ExtResource( 21 ), ExtResource( 22 ), ExtResource( 17 ), ExtResource( 24 ), ExtResource( 16 ), ExtResource( 18 ) ],
+"loop": false,
+"name": "Open",
+"speed": 5.0
+} ]
+
+[sub_resource type="RectangleShape2D" id=2]
+extents = Vector2( 73, 37 )
+
+[node name="BoxSpider" type="Area2D"]
+script = ExtResource( 25 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="."]
+frames = SubResource( 1 )
+animation = "Closed"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+visible = false
+position = Vector2( -4, 19 )
+shape = SubResource( 2 )
+
+[node name="open" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 26 )
+
+[connection signal="body_entered" from="." to="." method="_on_BoxSpider_body_entered"]
+[connection signal="body_exited" from="." to="." method="_on_BoxSpider_body_exited"]

@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/pies spawn.mp3-3df80b67c5ab37afb4c2d8d38cc4d6ec.mp3str"
+
+[deps]
+
+source_file="res://Media/items/pies spawn.mp3"
+dest_files=[ "res://.import/pies spawn.mp3-3df80b67c5ab37afb4c2d8d38cc4d6ec.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

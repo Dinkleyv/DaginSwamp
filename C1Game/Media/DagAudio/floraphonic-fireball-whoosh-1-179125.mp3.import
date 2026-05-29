@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/floraphonic-fireball-whoosh-1-179125.mp3-72ec0b62c38a6172e70b6cf9d233897f.mp3str"
+
+[deps]
+
+source_file="res://Media/DagAudio/floraphonic-fireball-whoosh-1-179125.mp3"
+dest_files=[ "res://.import/floraphonic-fireball-whoosh-1-179125.mp3-72ec0b62c38a6172e70b6cf9d233897f.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

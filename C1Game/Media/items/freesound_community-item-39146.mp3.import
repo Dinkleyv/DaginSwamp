@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/freesound_community-item-39146.mp3-42b5b21e10e919a6b001ffd59cf7da2a.mp3str"
+
+[deps]
+
+source_file="res://Media/items/freesound_community-item-39146.mp3"
+dest_files=[ "res://.import/freesound_community-item-39146.mp3-42b5b21e10e919a6b001ffd59cf7da2a.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

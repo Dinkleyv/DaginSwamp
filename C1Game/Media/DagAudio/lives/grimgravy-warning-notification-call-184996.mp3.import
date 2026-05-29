@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/grimgravy-warning-notification-call-184996.mp3-a1919d309f1d5a75bf381929e28e5d5b.mp3str"
+
+[deps]
+
+source_file="res://Media/DagAudio/lives/grimgravy-warning-notification-call-184996.mp3"
+dest_files=[ "res://.import/grimgravy-warning-notification-call-184996.mp3-a1919d309f1d5a75bf381929e28e5d5b.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

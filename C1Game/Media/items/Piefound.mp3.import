@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Piefound.mp3-9d5750c460aac6157102e53dbb313fae.mp3str"
+
+[deps]
+
+source_file="res://Media/items/Piefound.mp3"
+dest_files=[ "res://.import/Piefound.mp3-9d5750c460aac6157102e53dbb313fae.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

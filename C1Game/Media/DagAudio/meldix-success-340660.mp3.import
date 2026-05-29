@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/meldix-success-340660.mp3-5698c1d5477eb8505b7a700a65cc665a.mp3str"
+
+[deps]
+
+source_file="res://Media/DagAudio/meldix-success-340660.mp3"
+dest_files=[ "res://.import/meldix-success-340660.mp3-5698c1d5477eb8505b7a700a65cc665a.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0
